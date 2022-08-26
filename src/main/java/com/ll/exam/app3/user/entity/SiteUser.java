@@ -1,4 +1,4 @@
-package com.ll.exam.app3.user;
+package com.ll.exam.app3.user.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -13,6 +13,7 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
+@AllArgsConstructor
 public class SiteUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
